@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jacob Koza">
+
+    <title>KSquared - A Khoury Koza Wedding</title>
+
+	<!-- bower:css -->
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
+	<!-- endbower -->
+
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/stylish-portfolio.css">
+	<!-- endinject -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="<%=nav[0].Link%>" onclick=$("#menu-close").click();><%=nav[0].Text%></a>
+            </li>
+            <li>
+                <a href="#mariott" onclick=$("#menu-close").click();>Sawgrass Mariott</a>
+            </li>
+            <li>
+                <a href="#hilton" onclick=$("#menu-close").click();>Hilton Garden</a>
+            </li>
+			<li>
+				<a href="#contact" onclick=$("#menu-close").click();>Contact Us!</a>
+			</li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="color:white">The Accommodations</h1>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- Mariott -->
+    <section id="hotels" class="hotels">
+        <div class="container">
+            <div class="row" id="mariott">
+                <div class="col-lg-12 text-center">
+                    <h2>Sawgrass Mariott</h2>
+                    <p class="lead"></p>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="img-responsive" src="img/mariott.jpg" style="height:250px"/>
+				</div>
+				<div class="col-md-8">
+					<h4 class="lead">Indulge in an ocean of comforts at the Ponte Vedra resort!</h4>
+					<p>At the newly renovated Sawgrass Marriott Golf Resort & Spa, we provide guests all the elements for a winning stay. Accommodations range from newly refreshed guest rooms, to Premium Service Wing rooms and suites and spacious Villas with kitchenettes and patios, located in two-story buildings clustered around scenic lagoons. A spa, four pools and a variety of indoor and outdoor dining options offer choices for relaxing, indulging and mingling. Privileged access to iconic golf at the adjacent TPC® </p>
+					<p>Sawgrass and to our recently renovated private Cabana Beach Club with dining overlooking the Atlantic ocean are each a quick, complimentary shuttle ride. Groups appreciate the convenience of over 61,000 sq. ft. of flexible indoor and outdoor event space, including an exhibit area, 2,500-person capacity ballroom, private beach venue and over 36 meeting rooms. Genuinely warm hospitality, a casual ambience and pleasant weather year-round await at our beautiful 65-acre resort, just 30 minutes from Jacksonville airport.</p>
+					<a href="http://www.marriott.com/hotels/travel/jaxsw-sawgrass-marriott-golf-resort-and-spa/" target="_blank"class="btn btn-dark btn-lg">Book Now</a>
+				</div>
+			</div>
+			<br>
+			<div class="row" id="hilton">
+                <div class="col-lg-12 text-center">
+                    <h2>Hilton Garden Inn</h2>
+                    <p class="lead"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/hilton.jpg" style="height:250px"/>
+                </div>
+                <div class="col-md-8">
+                    <h4 class="lead">Enjoy Warm Hospitality and Great Amenities at the Jacksonville/Ponte Vedra Hotel!</h4>
+                    <p>Welcome to Hilton Garden Inn Jacksonville/Ponte Vedra located in the lush golfer's paradise between Jacksonville and historic St. Augustine at the entrance of the renowned TPC Sawgrass, home of The Players Championship tournament. Our inviting Ponte Vedra hotel is just five minutes from Florida’s most popular beaches, golf courses and attractions, and across the street from five diverse restaurants, shops and a spa.</p>
+					<p>Revive and refresh in a comfortable guest room featuring a range of amenities for your convenience and comfort. Relax on a Garden Sleep System® bed and view a movie or choice of premium channels on the 42-inch HD TV. Keep in touch with family using complimentary WiFi access. Enjoy a variety of nearby dining options from seafood to northern Italian cuisine, served in stylish restaurants. Start the day with a hot cooked-to-order breakfast and savour local favourites for lunch and dinner in the onsite restaurant, Mulligan's. Stay active in the fitness center or enjoy a refreshing swim in the heated outdoor pool. Make use of business-friendly services in the 24-hour business center and hold meetings, receptions and celebrations in 1,900 sq. ft. of versatile meeting space.</p>
+                    <a href="http://hiltongardeninn3.hilton.com/en/hotels/florida/hilton-garden-inn-jacksonville-ponte-vedra-JAXPVGI/index.html" target="_blank" class="btn btn-dark btn-lg">Book Now</a>
+                </div>
+            </div>
+		</div>
+            <!-- /.row -->
+       </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center" id="contact">
+                    <h4><strong>The Future Kozas</strong>
+                    </h4>
+                    <p>13300 Atlantic Blvd
+                        <br>Jacksonville, FL 32225</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (904) 323-1652</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jakekoza13@gmail.com">jakekoza13@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+						<li>
+							<a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+						</li>
+                    </ul>
+					<p>Follow us on Social Media with #KSquared</p>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; KSquared.party 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+	<!-- bower:js -->
+	<script src="/lib/jquery/dist/jquery.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- endbower -->
+
+	<!-- inject:js -->
+	<script src="/js/flot/excanvas.min.js"></script>
+	<script src="/js/flot/flot-data.js"></script>
+	<script src="/js/flot/jquery.flot.js"></script>
+	<script src="/js/flot/jquery.flot.pie.js"></script>
+	<script src="/js/flot/jquery.flot.resize.js"></script>
+	<script src="/js/flot/jquery.flot.tooltip.min.js"></script>
+	<script src="/js/morris/morris-data.js"></script>
+	<script src="/js/morris/morris.js"></script>
+	<script src="/js/morris/morris.min.js"></script>
+	<script src="/js/morris/raphael.min.js"></script>
+	<!-- endinject -->
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jacob Koza">
+
+    <title>KSquared - A Khoury Koza Wedding</title>
+
+	<!-- bower:css -->
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
+	<!-- endbower -->
+
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/stylish-portfolio.css">
+	<!-- endinject -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="<%=nav[0].Link%>" onclick=$("#menu-close").click();><%=nav[0].Text%></a>
+            </li>
+			<li>
+				<a href="#contact" onclick=$("#menu-close").click();>Contact Us!</a>
+			</li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="color:white">The Ceremony</h1>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>The Ceremony</h2>
+                    <p class="lead">"Shall we make a new rule of life from tonight: always try to be a little kinder than is necessary?" - J.M. Barrie</p>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1" style="text-align:center">
+					<p>خوري (Khoury) - translated from Arabic means priest. Much of the bride's family is practictioners of the Catholic faith. Rightly so,
+our ceremony will be held at the bride's home church: St. Maron's Catholic Church in Jacksonville Florida. St. Maron's welcomed the Khoury family when they moved from South Dakota to Jacksonville over 7 years ago and has provided many of the family friends we hold dear. Ornately decorated and intimately set, we believe this church is the perfect place to say our vows in front of God, family, and friends.</p>
+					<p><strong>Service begins at 4:30pm on August 10, 2018.</strong><br>We would ask family and friends attending to arrive no later that 4:00pm</p>
+					<p>For those staying at one of the hotels near TPC Sawgrass, the estimated drive time is between 20 and 30 minutes to the chuch. Please plan accordingly</p>
+				</div>
+			</div>
+			<div class="row" style="text-align:center">
+				<h3>The Wedding Party</h3>
+				<div class="col-md-6">
+					<h4>Bridesmaids</h4>
+					<ul class="bridalParty">
+						<li><strong>Lena Smith - Sister - Matron of Honor</strong></li>
+						<li>Liliane Khoury - Sister-in-Law</li>
+						<li>Maria Khoury - Cousin</li>
+						<li>Victoria Lavine - Friend</li>
+						<li>Amanda Baroutjian - Friend</li>
+						<li>Ashley Chiedo - Friend</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+                    <h4>Groomsmen</h4>
+                    <ul class="bridalParty">
+                        <li><strong>Peter Koza - Brother - Best Man</strong></li>
+						<li>Joshua Koza - Brother</li>
+						<li>Luke James - Friend</li>
+						<li>Tyler Kujawa - Friend</li>
+						<li>Thomas Wetzel - Cousin</li>
+						<li>Thomas A. Elwell - Friend</li>
+                    </ul>
+                </div>
+			</div>
+            <!-- /.row -->
+       </div>
+        <!-- /.container -->
+    </section>
+
+	    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>St Maron Catholic Church</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+	
+    <!-- Map -->
+    <section id="map" class="map">
+		<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19493.758567677363!2d-81.59201270802605!3d30.264378269713845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b5f14a5d74ad%3A0x3752037a2175d696!2sSt+Maron+Church!5e0!3m2!1sen!2sus!4v1495649196681" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps/place/TPC+Sawgrass/@30.2013284,-81.3960387,14.75z/data=!4m5!3m4!1s0x88e43656d3abc37b:0x6ddb0d34ae4def79!8m2!3d30.1990251!4d-81.394832"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19493.758567677363!2d-81.59201270802605!3d30.264378269713845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b5f14a5d74ad%3A0x3752037a2175d696!2sSt+Maron+Church!5e0!3m2!1sen!2sus!4v1495649196681"></a>
+        </small>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center" id="contact">
+                    <h4><strong>The Future Kozas</strong>
+                    </h4>
+                    <p>13300 Atlantic Blvd
+                        <br>Jacksonville, FL 32225</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (904) 323-1652</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jakekoza13@gmail.com">jakekoza13@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+						<li>
+							<a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+						</li>
+                    </ul>
+					<p>Follow us on Social Media with #KSquared</p>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; KSquared.party 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+	<!-- bower:js -->
+	<script src="/lib/jquery/dist/jquery.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- endbower -->
+
+	<!-- inject:js -->
+	<script src="/js/flot/excanvas.min.js"></script>
+	<script src="/js/flot/flot-data.js"></script>
+	<script src="/js/flot/jquery.flot.js"></script>
+	<script src="/js/flot/jquery.flot.pie.js"></script>
+	<script src="/js/flot/jquery.flot.resize.js"></script>
+	<script src="/js/flot/jquery.flot.tooltip.min.js"></script>
+	<script src="/js/morris/morris-data.js"></script>
+	<script src="/js/morris/morris.js"></script>
+	<script src="/js/morris/morris.min.js"></script>
+	<script src="/js/morris/raphael.min.js"></script>
+	<!-- endinject -->
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>

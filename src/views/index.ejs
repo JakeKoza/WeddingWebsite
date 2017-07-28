@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jacob Koza">
+
+    <title>KSquared - A Khoury Koza Wedding</title>
+	
+	<!-- bower:css -->
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
+	<!-- endbower -->
+
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/stylish-portfolio.css">
+	<!-- endinject -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="<%=nav[0].Link%>" onclick=$("#menu-close").click();><%=nav[0].Text%></a>
+            </li>
+            <li>
+                <a href="" onclick=$("#menu-close").click();></a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>Our Story</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Wedding Info</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Engagement Photos</a>
+            </li>
+			<li>
+				<a href="/register" onlcick=$("#menu-close").click();>RSVP</a>
+			</li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="color:white">Khoury Koza Wedding</h1>
+            <h3 style="color:white">Our Special Day</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Our Story</h2>
+                    <p class="lead">As always, there are two sides to this story: his and hers.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+ 			<div class="row">
+				<div class="col-md-5 col-sm-8 text-center">
+					<h4>His</h4>
+					<p>"Good things dont come easy," or so Rudy wont ever let me forget, and boy did I have to work. We met early after my move to Florida, and I was smitten from day one! Rudy....not so much! I invited her to a breakfast, funded by my matchmaker Uncle
+and I thought we hit it off, so as any confident man would do I invited her out again...only to be shot down in a glorious ball of fire. Undaunted I tried again....."No." No matter, third time is the charm....."I can't." Well I can take a hint, and so I admitted defeat.
+However, Rudy was not done sending mixed signals! In February, we began going to church together, and she would get all close, but then days later made sure I knew we were "just friends." This continued through to May, where I would try to ask her out, 
+and she wouldnt let me finish my question, but be all snuggly. Finally, after wearing her down for days on end, she relented and agreed to go out with me! A year and a half later we got engaged, and thankfully it only took one time for her to say yes...(after she made sure I asked her dad)!</p>
+				</div>	
+				<div class="col-md-2"></div>
+				<div class="col-md-5 text-center">
+					<h4>Hers</h4>
+					<p>
+We first met August of 2014 when I went to visit some older friends at the presidents office. We all know that when men and women are good friend, one side usually likes the other and of course it was Jake! Between taking 16 credits, volunteering, and doing research, I barley had time to hangout but when I did, I spent it going to church with Jake. I met his mother February 2015 and I remember thinking to myself, 
+she did a great job rising this young man. Then April 2015, I met the rest of his immediate family including uncles, aunts, cousins, and papa. After I finished up my junior year, I had time to process and figure things out, and I noticed that I liked Jake more than just friends.
+I started thinking about how our future would be together and that when I realized I am falling in love. We started dating May 2015 and ever since then, Jake has made me a happier and better person!</p>
+				</div>
+			</div>
+       </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary" style="background-color:#33FFBD;color:#3B3B3B">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Wedding Information</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-heart fa-stack-1x text-primary icon"></i>
+                            </span>
+                                <h4>
+                                    <strong>Ceremony</strong>
+                                </h4>
+                                <p>Join us as we say our vows in front of friends and family</p><br>
+                                <a href="/ceremony" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-glass fa-stack-1x text-primary icon"></i>
+                            </span>
+                                <h4>
+                                    <strong>Reception</strong>
+                                </h4>
+                                <p>The real party begins after the ceremony! Beers are on us!</p><br>
+                                <a href="/reception" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+						<div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-bed fa-stack-1x text-primary icon"></i>
+                            </span>
+                                <h4>
+                                    <strong>Accomodations</strong>
+                                </h4>
+                                <p>Hotel, airport, and direction information to get to TPC Sawgrass</p>
+                                <a href="/accomodations" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gift fa-stack-1x text-primary icon"></i>
+                            </span>
+                                <h4>
+                                    <strong>Registry</strong>
+                                </h4>
+                                <p>Your presence is what we truly want, but if so inclined here's what we need.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>TPC Sawgrass - Jacksonville</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Engagement Photos</h2>
+                    <hr class="small">
+					<p>A big shout out to <a href="http://www.dayeightstudios.com/" target="_blank">Day Eight Studios</a> for taking amazing photos!</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View The Rest</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>RSVPs</h3>
+					<h4>We Want You Here</h4>
+                    <a href="/register" class="btn btn-lg btn-light">Register</a>
+                    <a href="/register/regrets" class="btn btn-lg btn-dark">Regrets</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <!--<section id="contact" class="map">
+		<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16402.74755582278!2d-81.39603866120991!3d30.201328442398857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e43656d3abc37b%3A0x6ddb0d34ae4def79!2sTPC+Sawgrass!5e0!3m2!1sen!2sus!4v1495632860867" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps/place/TPC+Sawgrass/@30.2013284,-81.3960387,14.75z/data=!4m5!3m4!1s0x88e43656d3abc37b:0x6ddb0d34ae4def79!8m2!3d30.1990251!4d-81.394832"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/place/TPC+Sawgrass/@30.2013284,-81.3960387,14.75z/data=!4m5!3m4!1s0x88e43656d3abc37b:0x6ddb0d34ae4def79!8m2!3d30.1990251!4d-81.394832"></a>
+        </small>
+    </section> -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>The Future Kozas</strong>
+                    </h4>
+                    <p>13300 Atlantic Blvd
+                        <br>Jacksonville, FL 32225</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (904) 323-1652</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jakekoza13@gmail.com">jakekoza13@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+						<li>
+							<a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+						</li>
+                    </ul>
+					<p>Follow us on Social Media with #KSquared</p>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; KSquared.party 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+	<!-- bower:js -->
+	<script src="/lib/jquery/dist/jquery.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+	<!--endbower -->
+
+	<!-- inject:js -->
+	<script src="/js/flot/excanvas.min.js"></script>
+	<script src="/js/flot/flot-data.js"></script>
+	<script src="/js/flot/jquery.flot.js"></script>
+	<script src="/js/flot/jquery.flot.pie.js"></script>
+	<script src="/js/flot/jquery.flot.resize.js"></script>
+	<script src="/js/flot/jquery.flot.tooltip.min.js"></script>
+	<script src="/js/morris/morris-data.js"></script>
+	<script src="/js/morris/morris.js"></script>
+	<script src="/js/morris/morris.min.js"></script>
+	<script src="/js/morris/raphael.min.js"></script>
+	<!-- endinject -->
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>

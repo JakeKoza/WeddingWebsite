@@ -1,0 +1,36 @@
+.services{
+	color: #DEDEDE
+}
+
+.services span{
+	color:white;
+}
+
+.services span .icon{
+	color: #BB9600
+}
+
+.call-to-action{
+	background-color: #33FFBD;
+	color: #3B3B3B
+}
+
+hr{
+	border-color: #3B3B3B;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #3B3B3B;
+}
+
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #33FFBD
+}
