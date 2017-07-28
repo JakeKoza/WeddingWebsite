@@ -1,3 +1,3 @@
 #KozaKhoury Wedding Website
 
-This is the cource code for the website.
+This is the source code for the website.
